@@ -1,0 +1,15 @@
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/bin/Debug/net7.0/Entities.deps.json
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/bin/Debug/net7.0/Entities.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/bin/Debug/net7.0/Core.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/bin/Debug/net7.0/Core.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.csproj.CopyComplete
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/refint/Entities.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/Entities.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Entities/obj/Debug/net7.0/ref/Entities.dll

@@ -1,0 +1,17 @@
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/DataAccess.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/Core.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/Entities.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/Core.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/bin/Debug/net7.0/Entities.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CopyComplete
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll

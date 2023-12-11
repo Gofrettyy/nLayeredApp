@@ -1,0 +1,12 @@
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/bin/Debug/net7.0/Core.deps.json
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/bin/Debug/net7.0/Core.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/bin/Debug/net7.0/Core.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/refint/Core.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/Core.pdb
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/obj/Debug/net7.0/ref/Core.dll
