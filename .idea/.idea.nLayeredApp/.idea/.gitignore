@@ -5,6 +5,7 @@
 .DS_Store.git
 .DS_Store
 .idea
+.idea/.idea.nLayeredApp/.idea
 # User-specific files
 *.rsuser
 *.suo
