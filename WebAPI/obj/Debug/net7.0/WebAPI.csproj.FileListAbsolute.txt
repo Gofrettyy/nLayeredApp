@@ -260,3 +260,5 @@
 /Users/naznehiralicavus/RiderProjects/NLayeredApp/WebAPI/bin/Debug/net7.0/Business.pdb
 /Users/naznehiralicavus/RiderProjects/NLayeredApp/WebAPI/bin/Debug/net7.0/AutoMapper.dll
 /Users/naznehiralicavus/RiderProjects/NLayeredApp/WebAPI/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/WebAPI/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/naznehiralicavus/RiderProjects/NLayeredApp/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll

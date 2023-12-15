@@ -8,7 +8,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="511af30e-73a6-4770-a815-164f3e54503a" name="Changes" comment="" />
+    <list default="true" id="511af30e-73a6-4770-a815-164f3e54503a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Business/Dtos/Request/DeleteCategoryRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Dtos/Request/UpdateCategoryRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Dtos/Responses/DeletedCategoryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Dtos/Responses/UpdatedCategoryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Messages/BusinessMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Rules/CategoryBusinessRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Rules/ProductBusinessRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Business/Rules/BaseBusinessRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/ExceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/Extensions/ExceptionMiddlewareExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/Extensions/ProblemDetailsExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/Handlers/ExceptionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/Handlers/HttpExceptionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/HttpProblemDetails/BusinessProblemDetails.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Exceptions/Types/BusinessException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/DataAccess/Paging/IPaginate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/DataAccess/Paging/PageRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.nLayeredApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.nLayeredApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abtracts/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abtracts/ICategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abtracts/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abtracts/IProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/BusinessServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/BusinessServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concretes/CategoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concretes/CategoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concretes/ProductManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concretes/ProductManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Dtos/Request/CreateCategoryRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Dtos/Request/CreateCategoryRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Dtos/Responses/CreatedCategoryResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Dtos/Responses/CreatedCategoryResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Mapping/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Mapping/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net7.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net7.0/Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net7.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net7.0/Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/ref/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/ref/Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net7.0/refint/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net7.0/refint/Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Dynamic/DynamicQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Dynamic/DynamicQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Dynamic/Filter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Dynamic/Filter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Dynamic/IQueryableDynamicFilterExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Dynamic/IQueryableDynamicFilterExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Dynamic/Sort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Dynamic/Sort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Paging/BasePageableModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Paging/BasePageableModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Paging/IQueryablePaginateExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Paging/IQueryablePaginateExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Paging/Paginate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Paging/Paginate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Repositories/EfRepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Repositories/EfRepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Repositories/IAsyncRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Repositories/IAsyncRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Repositories/IQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Repositories/IQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/Repositories/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net7.0/Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net7.0/Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net7.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net7.0/Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/CategoriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/net7.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/net7.0/refint/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +115,7 @@
     <setting file="file://$PROJECT_DIR$/Business/BusinessServiceRegistration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Business/Concretes/ProductManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -43,6 +135,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/naznehiralicavus/RiderProjects/NLayeredApp/Core/DataAccess",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,12 +210,45 @@
       <workItem from="1702316938600" duration="4940000" />
       <workItem from="1702322422654" duration="832000" />
       <workItem from="1702323586569" duration="355000" />
+      <workItem from="1702323971165" duration="716000" />
+      <workItem from="1702375566344" duration="7251000" />
+      <workItem from="1702384733202" duration="2546000" />
+      <workItem from="1702458048018" duration="2706000" />
+      <workItem from="1702497511470" duration="2742000" />
+      <workItem from="1702576601767" duration="226000" />
+      <workItem from="1702658478345" duration="4257000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore added">
+      <option name="closed" value="true" />
+      <created>1702324393473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702324393473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <option name="closed" value="true" />
+      <created>1702324446058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702324446058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added">
+      <option name="closed" value="true" />
+      <created>1702324652434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702324652434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -136,5 +262,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="gitignore added" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/BusinessServiceRegistration.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Business/BusinessServiceRegistration.cs" initialLine="11" containingFunctionPresentation="Method 'AddBusinessServices'">
+            <startOffsets>
+              <option value="315" />
+            </startOffsets>
+            <endOffsets>
+              <option value="316" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

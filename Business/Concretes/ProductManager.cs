@@ -1,5 +1,6 @@
 using System.Net;
 using AutoMapper;
+using Business.Abtracts;
 using Business.Dtos.Request;
 using Business.Dtos.Responses;
 using Core.DataAccess.Paging;
@@ -23,7 +24,7 @@ public class ProductManager:IProductService
     }
     
 //GetListProductResponse
-    public async Task<Paginate<GetListedProductResponse>> GetListAsync()
+    public async Task<IPaginate<GetListedProductResponse>> GetListAsync()
     {
     
         var product = await _productDal.GetListAsync();

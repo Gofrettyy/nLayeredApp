@@ -1,4 +1,4 @@
-namespace Core.DataAccess.Repositories;
+﻿namespace Core.DataAccess.Repositories;
 
 public interface IQuery<T>
 {

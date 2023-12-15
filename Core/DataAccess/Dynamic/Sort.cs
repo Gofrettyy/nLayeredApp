@@ -1,4 +1,4 @@
-namespace Core.DataAccess.Dynamic;
+﻿namespace Core.DataAccess.Dynamic;
 
 public class Sort
 {
@@ -15,5 +15,5 @@ public class Sort
     {
         Field = field;
         Dir = dir;
-    } 
+    }
 }

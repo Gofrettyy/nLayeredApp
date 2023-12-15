@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business.Abtracts;
 using Business.Concretes;
 using Business.Dtos.Request;
 using Microsoft.AspNetCore.Http;
@@ -26,9 +27,23 @@ namespace WebAPI.Controllers
             return Ok(result); }
        
         [HttpGet]
-        public async Task<IActionResult> GetList()
+        public async Task<IActionResult> GetListAsync()
         { 
             var result = await _categoryService.GetListAsync(); 
+            return Ok(result);
+        }
+        
+        [HttpPost("Update")]
+        public async Task<IActionResult> UpdateAsync([FromBody] UpdateCategoryRequest updateCategoryRequest)
+        {
+            var result = await _categoryService.UpdateAsync(updateCategoryRequest);
+            return Ok(result);
+        }
+
+        [HttpPost("Delete")]
+        public async Task<IActionResult> DeleteAsync([FromBody] DeleteCategoryRequest deleteCategoryRequest)
+        {
+            var result = await _categoryService.DeleteAsync(deleteCategoryRequest);
             return Ok(result);
         }
     }
